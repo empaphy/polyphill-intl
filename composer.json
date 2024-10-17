@@ -1,0 +1,21 @@
+{
+    "name": "empaphy/polyphill-intl",
+    "description": "A metapackage that installs a intl polyfill if needed, and removes it if redundant.",
+    "version": "1.0.0",
+    "type": "metapackage",
+    "keywords": ["compatibility", "polyfill", "portable", "shim", "intl"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/empaphy/polyphill-intl/issues"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "conflict": {
+        "ext-intl": "*"
+    },
+    "suggest": {
+        "ext-intl": "For best performance"
+    },
+    "minimum-stability": "dev"
+}
